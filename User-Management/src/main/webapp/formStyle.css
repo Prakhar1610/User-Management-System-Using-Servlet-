@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body{
+	background-image: url('v915-wit-011.jpg');
+}
+
+.form-container {
+  margin: 140px auto; 
+  width:300px;
+  height:450px;
+  background-color: white;
+}
+
+h2{
+	border: 2px solid  #009879;
+	background-color:  #009879;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
+form{
+	margin-left: 25px;
+}
+
+/*form label{
+	border: 2px solid  #009879;
+	padding-right: 190px;
+	background-color:  #009879;
+}*/
+
+.id-label label{
+	border: 2px solid  #009879;
+	padding-right: 214px;
+	background-color:  #009879;
+	color: white;
+}
+
+.name-label label{
+	border: 2px solid  #009879;
+	padding-right: 189px;
+	background-color:  #009879;
+	color: white;
+}
+
+.email-label label{
+	border: 2px solid  #009879;
+	padding-right: 189px;
+	background-color:  #009879;
+	color: white;
+}
+
+.country-label label{
+	border: 2px solid  #009879;
+	padding-right: 175px;
+	background-color:  #009879;
+	color: white;
+}
+
+form input{
+	background-color: #dddddd;
+	height: 3vh;
+	border: none;
+}
+
+.btn{
+	position: relative;
+	left: 75px;
+	background-color: #009879;
+	border: none;
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	color: white;
+}
+/*.btn{7
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:  #009879;
+	border: none;
+	padding: 50px auto;
+	text-align: center;
+	
+	left: 100px;
+}*/
+/*input[type=submit]{
+	background-color:  #009879;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type=reset]{
+	background-color:  #009879;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute; 
+}*/

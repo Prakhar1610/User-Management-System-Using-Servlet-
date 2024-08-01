@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/*table, th, td {
+  border: 1px solid;
+  width: 100%;
+  boder-collapse: collapse;
+}*/
+
+body{
+	background-image: url('v915-wit-011.jpg');
+}
+h1{
+	text-align: center;
+}
+
+.add-button button{
+	background-color:  #009879;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute; 
+    top: 230px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+}
+
+.select-button button{
+	background-color:  #009879;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute; 
+    top: 230px;
+    left: 600px;
+    transform: translate(-50%, -50%);
+}
+
+.delete-button button{
+	background-color:  #009879;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute; 
+    top: 230px;
+    left: 900px;
+    transform: translate(-50%, -50%);
+}
+
+.update-button button{
+	background-color:  #009879;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute; 
+    top: 230px;
+    left: 1165px;
+    transform: translate(-50%, -50%);
+}
+
+.table{
+	border-collapse: collapse;
+    margin: 200px 0 100px 300px;
+    font-size: 0.9em;
+    min-width: 900px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow-x: scroll;
+    height: 200px;
+}
+
+.table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: white;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
